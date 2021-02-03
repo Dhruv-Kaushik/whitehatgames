@@ -46,7 +46,7 @@ void main() {
 
 
 
-class HackNSlashDemo {
+class StartGame {
   constructor() {
     this._Initialize();
   }
@@ -404,5 +404,5 @@ class HackNSlashDemo {
 let _APP = null;
 
 window.addEventListener('DOMContentLoaded', () => {
-  _APP = new HackNSlashDemo();
+  _APP = new StartGame();
 });
