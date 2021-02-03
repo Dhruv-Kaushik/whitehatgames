@@ -334,9 +334,9 @@ class HackNSlashDemo {
       }));
       npc.AddComponent(
           new health_component.HealthComponent({
-              health: 9999999,
-              maxHealth: 9999999999,
-              strength: 5,
+              health: 500,
+              maxHealth: 500,
+              strength: 6,
               wisdomness: 2,
               benchpress: 3,
               curl: 1,
